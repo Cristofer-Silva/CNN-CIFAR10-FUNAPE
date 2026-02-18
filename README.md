@@ -32,10 +32,10 @@ Input (3×32×32 RGB)
   ├─► Conv2d(3→6, 5×5) + ReLU + MaxPool(2×2)    →  6×14×14
   ├─► Conv2d(6→16, 5×5) + ReLU + MaxPool(2×2)   →  16×5×5
   │
-  ├─► Flatten                                     →  400
+  ├─► Flatten                                   →  400
   ├─► Linear(400→120) + ReLU
   ├─► Linear(120→84)  + ReLU
-  └─► Linear(84→10)                               →  10 class logits
+  └─► Linear(84→10)                             →  10 class logits
 ```
 
 | Component | Details |
